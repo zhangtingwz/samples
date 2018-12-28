@@ -72,7 +72,7 @@ function start() {
   startButton.disabled = true;
   navigator.mediaDevices
     .getUserMedia({
-      audio: true,
+      audio: true,//Excuse me.why is it audio？，I see the html it is video，I`m a newbee,please answer me ,thank you very much
       video: false
     })
     .then(gotStream)
